@@ -9,8 +9,12 @@
     box-shadow: 0 0 10px 0 rgba(38, 39, 41, .2);
     font-family: Rubik, sans-serif;
     text-align: center;
-    width: 220px;
+    width: 230px;
     margin: 10px;
+}
+
+.caja1>div>img {
+    margin-top: 10px;
 }
 
 .pequeño {
@@ -20,6 +24,12 @@
 .caja1>div>p {
     line-height: 10%;
     color: gray;
+}
+
+@media (max-width:1028px) {
+    .caja1 {
+        display: none;
+    }
 }
 
 
